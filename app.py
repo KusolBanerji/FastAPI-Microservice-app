@@ -13,6 +13,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
+    "https://itskusol.netlify.app/"
 ]
 
 app.add_middleware(
